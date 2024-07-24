@@ -7,7 +7,7 @@ branchName = ''
 commitMessage = 'first commit' 
 readmeText = '' 
 
-git = Github(name,projePath,repoPath,branchName,commitMessage,ReMDMessage=readmeText)
-doc = Docker(False)
+git = Gethub(name,projePath,repoPath,branchName,commitMessage,ReMDMessage=readmeText)
+doc = Decker(False)
 ghub = GEHUB(git,doc)
 ghub.pushRepo()
